@@ -23,7 +23,8 @@
 const express = require('express');
 const app = express();
 
-app.get('/',(req,res) => res.send("Bem vindo a Home!!"));
+
+app.get('/', (req,res) => res.sendFile(__dirname + '/Website/index.html'));
 
 
 app.get('/contatos',(req,res) => res.send("Bem vindo a pagina de contatos"));
