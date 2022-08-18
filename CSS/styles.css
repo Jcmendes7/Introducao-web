@@ -12,3 +12,28 @@ header {
     background-color: black;
     color: white;
 }
+
+footer {
+    border: 3px solid gray;
+    padding: 30px;
+    margin: 20px;
+    background-color: aqua;
+}
+
+ul {
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    
+}
+
+ul {
+    margin: 0 10px;
+}
+
+ul {
+    font-size: 1.1rem;
+    
+}
